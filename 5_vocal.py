@@ -7,3 +7,8 @@ if letra_min in 'aeiou':
     print(f'La letra {letra} es una vocal')
 else:
     print(f'La letra {letra} es una consonante')
+
+
+def function(number, kwarg = 3):
+    
+    

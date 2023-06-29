@@ -3,6 +3,7 @@ contiene números o no'''
 
 caracteres = input('Escribe una cadena de caracteres: ')
 
+
 for i in range(0,len(caracteres)):
     if caracteres[i] in '0123456789':
         print('El string contiene números')
